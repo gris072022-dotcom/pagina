@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta como Fondo</title>
+    <style>
+        /*  */
+        body {
+            margin: 100;
+            padding:100;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-image: url('fondo.png'); /*  */
+            background-size: cover; /* Hace que ocupe la mitad  la pantalla */
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Contenedor del contenido encima de la carta */
+        .contenido {
+            background-color: rgba(0, 0, 0, 0.0); /* Fondo semitransparente para resaltar el texto */
+            padding: 10px 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.0);
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+        <h1></h1>
+        <p>.</p>
+    </div>
+</body>
+</html>
